@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.AppTest" time="0.055" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.AppTest" time="0.077" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/ec2-user/re.git/my-demo_project/my-app/target/test-classes:/home/ec2-user/re.git/my-demo_project/my-app/target/classes:/home/ec2-user/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="java.class.path" value="/home/ec2-user/re.git/my-demo_project/my-app/target/test-classes:/home/ec2-user/re.git/my-demo_project/my-app/target/classes:/root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
@@ -11,11 +11,11 @@
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-amazon-corretto.x86_64/lib"/>
-    <property name="sun.java.command" value="/home/ec2-user/re.git/my-demo_project/my-app/target/surefire/surefirebooter-20250707141259955_3.jar /home/ec2-user/re.git/my-demo_project/my-app/target/surefire 2025-07-07T14-12-59_738-jvmRun1 surefire-20250707141259955_1tmp surefire_0-20250707141259955_2tmp"/>
+    <property name="sun.java.command" value="/home/ec2-user/re.git/my-demo_project/my-app/target/surefire/surefirebooter-20250707142903708_3.jar /home/ec2-user/re.git/my-demo_project/my-app/target/surefire 2025-07-07T14-29-03_512-jvmRun1 surefire-20250707142903708_1tmp surefire_0-20250707142903708_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/ec2-user/re.git/my-demo_project/my-app/target/test-classes:/home/ec2-user/re.git/my-demo_project/my-app/target/classes:/home/ec2-user/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="surefire.test.class.path" value="/home/ec2-user/re.git/my-demo_project/my-app/target/test-classes:/home/ec2-user/re.git/my-demo_project/my-app/target/classes:/root/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/home/ec2-user"/>
+    <property name="user.home" value="/root"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2025-04-15"/>
@@ -26,17 +26,17 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/ec2-user/re.git/my-demo_project/my-app/target/surefire/surefirebooter-20250707141259955_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/ec2-user/re.git/my-demo_project/my-app/target/surefire/surefirebooter-20250707142903708_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.15+6-LTS"/>
-    <property name="user.name" value="ec2-user"/>
+    <property name="user.name" value="root"/>
     <property name="path.separator" value=":"/>
     <property name="os.version" value="6.1.141-155.222.amzn2023.x86_64"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="java.vendor.version" value="Corretto-17.0.15.6.1"/>
-    <property name="localRepository" value="/home/ec2-user/.m2/repository"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-17/issues/"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="17.0.15"/>
@@ -52,5 +52,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testApp" classname="com.example.AppTest" time="0.002"/>
+  <testcase name="testApp" classname="com.example.AppTest" time="0.007"/>
 </testsuite>
