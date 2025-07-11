@@ -1,6 +1,0 @@
-num = 60 
-
-if num%10 == 0:
- print("num")
-else:
-  print ("") 

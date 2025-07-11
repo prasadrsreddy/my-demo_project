@@ -1,7 +1,0 @@
-ticket_price = 100
-Wallet_price =130
-
-if Ticket_price <= Wallet_price:
- print ("We can go to movie!")
- else:
-   print ("not go to movire")
