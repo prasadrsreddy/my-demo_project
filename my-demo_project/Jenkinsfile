@@ -21,7 +21,9 @@ pipeline {
 
         stage('Build') {
             steps {
+                 dir('my-demo_project') {
                 sh 'mvn clean install'
+              }
             }
         }
 
